@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAV BAR HTML</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Croissant+One&family=Dela+Gothic+One&family=Skranji&display=swap"
+        rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Croissant One', cursive;
+            font-family: 'Dela Gothic One', cursive;
+            font-family: 'Skranji', cursive;
+        }
+
+        nav {
+            height: 10vh;
+            width: 100vw;
+            /* border: 1px solid brown; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            background-color: rgb(255, 255, 255);
+            color: rgb(0, 0, 0);
+        }
+
+        nav>ul {
+            height: 10vh;
+            width: 50vw;
+            display: flex;
+            /* border: 1px solid green; */
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        nav>ul>li {
+            /* border: 1px solid yellow; */
+            padding: 10px;
+            list-style: none;
+            border-radius: 10px;
+            transition: all ease-in-out .5s;
+        }
+
+        nav>ul>li:hover {
+            background-color: rgb(0, 0, 0);
+            color: rgba(0, 4, 255, 0.863);
+            cursor: pointer;
+        }
+        #sec-1{
+            height: 100vh;
+            width: 100vw;
+            background-color: black;
+            background-image: url(./cosmos-1853491_1920.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            color: azure;
+        }
+        #sec-2{
+            height: 90vh;
+            width: 100vw;
+            background-color: black;
+            background-image: url(./polar-lights-5858656_1920.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            color: azure;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>
+                HOME
+            </li>
+            <li>
+                ABOUT
+            </li>
+            <li>
+                SERVICE
+            </li>
+            <li>
+                CONTACT
+            </li>
+        </ul>
+    </nav>
+    <div id="sec-1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, voluptatibus vel consectetur minus rerum, asperiores nesciunt optio nostrum amet atque fugiat maxime dolore natus? Illum exercitationem dolore expedita sit laboriosam.
+    </div>
+    <div id="sec-2">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis quasi ratione quibusdam aspernatur dicta itaque. Placeat, in. Vel, excepturi deserunt fugiat recusandae doloribus quaerat nobis, voluptatem ullam, harum saepe libero?
+    </div>
+</body>
+
+</html>
